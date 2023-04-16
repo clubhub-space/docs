@@ -45,11 +45,15 @@
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "getting-started", "development"]
+      "pages": ["introduction", "getting-started"]
     },
     {
       "group": "Stack",
       "pages": ["stack/github", "stack/github-actions", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/canny"]
+    },
+    {
+      "group": "Development",
+      "pages": ["development/flow"]
     },
     {
       "group": "Applications",
