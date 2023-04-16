@@ -1,9 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "ClubHub",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
+  },
+  "feedback":  {
+    "suggestEdit": true,
+    "raiseIssue": true
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -23,7 +27,7 @@
   },
   "anchors": [
     {
-      "name": "API Reference",
+      "name": "Developer",
       "icon": "rectangle-terminal",
       "url": "api-reference"
     },
@@ -41,7 +45,15 @@
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "features"]
+      "pages": ["introduction", "getting-started", "development"]
+    },
+    {
+      "group": "Applications",
+      "pages": ["applications/space"]
+    },
+    {
+      "group": "Libraries",
+      "pages": ["libraries/database", "libraries/deepkit-remix"]
     },
     {
       "group": "API Documentation",
