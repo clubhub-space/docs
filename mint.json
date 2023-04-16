@@ -49,7 +49,7 @@
     },
     {
       "group": "Stack",
-      "pages": ["stack/github", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/canny"]
+      "pages": ["stack/github", "stack/github-actions", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/canny"]
     },
     {
       "group": "Applications",
