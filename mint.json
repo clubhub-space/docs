@@ -49,15 +49,15 @@
     },
     {
       "group": "Stack",
-      "pages": ["stack/github", "stack/github-actions", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/canny"]
+      "pages": ["stack/github", "stack/github-actions", "stack/nx", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/docker", "stack/canny"]
     },
     {
       "group": "Development",
-      "pages": ["development/flow"]
+      "pages": ["development/getting-started", "development/code-style"]
     },
     {
       "group": "Applications",
-      "pages": ["applications/space"]
+      "pages": ["applications/space", "applications/trigger-planetscale-branch"]
     },
     {
       "group": "Libraries",
