@@ -48,6 +48,10 @@
       "pages": ["introduction", "getting-started", "development"]
     },
     {
+      "group": "Stack",
+      "pages": ["stack/github", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/canny"]
+    },
+    {
       "group": "Applications",
       "pages": ["applications/space"]
     },
