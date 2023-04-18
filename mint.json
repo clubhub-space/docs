@@ -53,7 +53,7 @@
     },
     {
       "group": "Development",
-      "pages": ["development/getting-started", "development/code-style"]
+      "pages": ["development/getting-started", "development/code-style", "development/git", "development/nx", "development/planetscale", "development/prisma"]
     },
     {
       "group": "Applications",
