@@ -1,0 +1,11 @@
+---
+title: "Google Cloud Run vs Fly"
+sidebarTitle: "Google Cloud Run vs Fly"
+description: "Why we chose Google Cloud Run instead of Fly"
+---
+[Fly](https://fly.io) doesn't support auto-scaling down to 0 instances and is far more expensive.
+A server running 24/7 with an [open database connection](https://neon.tech/docs/introduction/compute-lifecycle) to **Neon** will use the corresponding [compute time](https://community.neon.tech/t/compute-time-usage-calculation/649/2).
+
+[Google Cloud Run](https://cloud.google.com/run/) supports scaling down to 0 instances and scaling up when requests come in, resulting in no unnecessary active or idle database connections and saved **Neon** [compute time](https://community.neon.tech/t/compute-time-usage-calculation/649/2).
+
+The downside is that there can be an initial [cold server startup time](https://cloud.google.com/run/docs/about-instance-autoscaling#idle-instance) for **Google Cloud Run**.

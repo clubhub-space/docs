@@ -15,14 +15,13 @@ description: "Getting started with development"
 ## Installation
 <CodeGroup>
   ```bash node
-  $ volta install node@18.16.0
+  $ volta install node
   ```
 
   ```bash pnpm
-  $ volta install pnpm@8.2.0
+  $ volta install pnpm
   ```
 </CodeGroup>
-
 
 ### Dependencies
 Install [Node](https://nodejs.org) dependencies using [pnpm](https://pnpm.io/).
@@ -41,18 +40,18 @@ $ git checkout -b feat/example
 $ git push --set-upstream origin feat/example
 ```
 
-3. A PlanetScale database branch will now be created for you to use while developing your feature.
-A message will be posted in the `#planetscale` Discord channel with the next step.
-You can view the PlanetScale database branch [here](https://app.planetscale.com/clubhub/space/feat-example).
+3. A [Neon](/development/neon) database branch will now be created for you to use while developing your feature.
+A message will be posted in the `#neon` Discord channel with the environment variables required for the [Space Database](/libraries/space-database).
+View the full documentation [here](/applications/trigger-neon-branch).
 <Frame>
   <img src="/images/development/getting-started/Screenshot%202023-04-16%20at%2020.57.28.png" />
 </Frame>
 
 4. Run the following commands in separate terminals.
-They will start the dev servers required for developing on the **space** application and the **@clubhub/db** library.
+They will start the dev servers for developing the **space** application and the **space-db** library.
 <CodeGroup>
-  ```bash db
-  $ nx dev db
+  ```bash space-db
+  $ nx dev space-db
   ```
 
   ```bash space

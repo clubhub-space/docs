@@ -1,0 +1,11 @@
+---
+title: "Neon vs PlanetScale"
+sidebarTitle: "Neon vs PlanetScale"
+description: "Why we chose Neon instead of PlanetScale"
+---
+[Neon](/stacks/neon) is truly serverless and its pricing is usage-based so we only pay for what we use.
+You can have unlimited branches, and they support data branching out of the box.
+
+[PlanetScale](https://planetscale.com) only offers unlimited branches and data branching in their Team plan which costs $599/mo.
+
+The downside with using **Neon** instead of **PlanetScale** is that we have to deal with migrations ourselves using [Prisma Migrate](https://www.prisma.io/docs/concepts/components/prisma-migrate) instead of PlanetScale's [non-blocking schema changes](https://planetscale.com/docs/concepts/nonblocking-schema-changes).

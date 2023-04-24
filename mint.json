@@ -49,19 +49,23 @@
     },
     {
       "group": "Stack",
-      "pages": ["stack/github", "stack/github-actions", "stack/nx", "stack/discord", "stack/linear", "stack/planetscale", "stack/prisma", "stack/trigger", "stack/fly", "stack/docker", "stack/canny"]
+      "pages": ["stack/github", "stack/github-actions", "stack/nx", "stack/discord", "stack/linear", "stack/neon", "stack/prisma", "stack/trigger", "stack/fly", "stack/docker", "stack/canny"]
     },
     {
       "group": "Development",
-      "pages": ["development/getting-started", "development/code-style", "development/git", "development/nx", "development/planetscale", "development/prisma"]
+      "pages": ["development/getting-started", "development/code-style", "development/git", "development/nx", "development/neon", "development/prisma"]
+    },
+    {
+      "group": "Architecture",
+      "pages": ["architecture/introduction", "architecture/fly-vs-google-cloud-run", "neon-vs-planetscale"]
     },
     {
       "group": "Applications",
-      "pages": ["applications/space", "applications/trigger-planetscale-branch"]
+      "pages": ["applications/space", "applications/trigger-neon-branch", "applications/trigger-space-preview-app"]
     },
     {
       "group": "Libraries",
-      "pages": ["libraries/database", "libraries/deepkit-remix"]
+      "pages": ["libraries/deepkit-remix", "libraries/space-database", "libraries/internal-database"]
     },
     {
       "group": "API Documentation",
