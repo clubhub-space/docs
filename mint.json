@@ -49,7 +49,7 @@
     },
     {
       "group": "Stack",
-      "pages": ["stack/github", "stack/github-actions", "stack/nx", "stack/discord", "stack/linear", "stack/neon", "stack/prisma", "stack/trigger", "stack/fly", "stack/docker", "stack/canny"]
+      "pages": ["stack/github", "stack/github-actions", "stack/nx", "stack/discord", "stack/linear", "stack/neon", "stack/prisma", "stack/trigger", "stack/google-cloud-run", "stack/fly", "stack/docker", "stack/canny"]
     },
     {
       "group": "Development",
@@ -57,7 +57,7 @@
     },
     {
       "group": "Architecture",
-      "pages": ["architecture/introduction", "architecture/fly-vs-google-cloud-run", "neon-vs-planetscale"]
+      "pages": ["architecture/introduction", "architecture/google-cloud-run-vs-fly", "architecture/neon-vs-planetscale"]
     },
     {
       "group": "Applications",
