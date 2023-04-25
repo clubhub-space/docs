@@ -10,5 +10,13 @@ All commit messages must abide by the [Conventional Commits](https://www.convent
 This is enforced by running [commitlint](https://commitlint.js.org/#/) as a pre-commit hook using [lefthook](https://github.com/evilmartians/lefthook/blob/master/docs/usage.md).
 
 ## Branches
+Every GitHub branch will have a corresponding Neon branch that can be used for local development.<br />
+
+Read the technical documentation [here](/applications/trigger-neon-branch).
 
 ## Pull Requests
+
+### Space
+For every pull request that contains changes to the `space` [tagged](https://nx.dev/core-features/enforce-project-boundaries#tags) **Nx** projects, a [Google Cloud Run](/stack/google-cloud-run) service will be created that uses the same [Neon branch](/development/neon#create-a-neon-branch) that was initially created for local development.
+
+Read the technical documentation [here](/applications/trigger-space-preview-app).

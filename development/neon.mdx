@@ -2,3 +2,27 @@
 title: "Neon"
 sidebarTitle: "Neon"
 ---
+To be able to develop on the `space` [tagged](https://nx.dev/core-features/enforce-project-boundaries#tags) **Nx** projects, you'll first need a database to use with [Prisma](/development/prisma).<br/>
+We'll be using [Neon branching](https://neon.tech/blog/frictionless-development-experience-with-neon-branching) to setup a clone of the production database that can be used for development.
+
+### Prequisities
+- [Discord](/stack/discord)
+
+### Create a Neon branch
+Assuming you have the [clubhub](https://github.com/clubhub-space/clubhub) Git repository open.
+
+Read the technical documentation [here](/applications/trigger-neon-branch).
+
+1. Create a new Git branch
+```bash
+$ git checkout -b <name>
+```
+2. Push the Git branch
+```bash
+$ git push --set-upstream origin <name>
+```
+3. Read the message posted in the `#neon` **Discord** channel that contains the next step. It'll look like the following below
+<Frame>
+  <img src="/images/development/getting-started/Screenshot 2023-04-24 at 14.43.41.png" />
+</Frame>
+4. You have now setup a [Neon branch](https://neon.tech/docs/introduction/branching) for local development 🎉.

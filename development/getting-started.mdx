@@ -29,26 +29,15 @@ Install [Node](https://nodejs.org) dependencies using [pnpm](https://pnpm.io/).
 $ pnpm install
 ```
 
-## Developing a feature example flow
-1. Start by creating a new Git branch
-```bash
-$ git checkout -b feat/example
-```
+## Developing the Space application locally
+1. [Follow the steps in the Neon development guide](/development/neon#create-a-neon-branch).
 
-2. Now the next step you must do is push the newly created Git branch to the remote origin. This'll be explained why in the next step.
-```bash
-$ git push --set-upstream origin feat/example
-```
+2. [Read the Prisma development guide](/development/prisma)
 
-3. A [Neon](/development/neon) database branch will now be created for you to use while developing your feature.
-A message will be posted in the `#neon` Discord channel with the environment variables required for the [Space Database](/libraries/space-database).
-View the full documentation [here](/applications/trigger-neon-branch).
-<Frame>
-  <img src="/images/development/getting-started/Screenshot 2023-04-24 at 14.43.41.png" />
-</Frame>
+3. [Read the Remix development guide](/development/remix)
 
-4. Run the following commands in separate terminals.
-They will start the dev servers for developing the **space** application and the **space-db** library.
+4. Run the following commands in separate terminals.<br/>
+They will start the dev servers for developing on the **space** application and the associated database.
 <CodeGroup>
   ```bash space-db
   $ nx dev space-db

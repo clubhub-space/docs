@@ -53,7 +53,7 @@
     },
     {
       "group": "Development",
-      "pages": ["development/getting-started", "development/code-style", "development/git", "development/nx", "development/neon", "development/prisma"]
+      "pages": ["development/getting-started", "development/code-style", "development/git", "development/nx", "development/neon", "development/prisma", "development/remix"]
     },
     {
       "group": "Architecture",
