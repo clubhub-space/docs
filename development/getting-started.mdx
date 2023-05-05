@@ -3,12 +3,12 @@ title: "Getting Started"
 sidebarTitle: "Getting Started"
 description: "Getting started with development"
 ---
-## Prequisities
+### Prerequisites
 - [Git](https://github.com/git-guides/install-git)
 - [VS Code](https://code.visualstudio.com/), [IntellIJ IDEA](https://www.jetbrains.com/webstorm/) or [WebStorm](https://www.jetbrains.com/webstorm/)
 - [Volta](https://volta.sh/)
 - [Discord](/stack/discord)
-- [PlanetScale](/stack/planetscale) (?)
+- [Neon](/stack/neon)
 
 [Clone](https://github.com/git-guides/git-clone) the [clubhub-space/clubhub](https://github.com/clubhub-space/clubhub) GitHub repository
 
@@ -30,13 +30,15 @@ $ pnpm install
 ```
 
 ## Developing the Space application locally
-1. [Follow the steps in the Neon development guide](/development/neon#create-a-neon-branch).
+1. Copy `.env.example` to `.env`.
 
-2. [Read the Prisma development guide](/development/prisma)
+2. [Follow the steps in the Neon development guide](/development/neon#create-a-neon-branch).
 
-3. [Read the Remix development guide](/development/remix)
+3. [Read the Prisma development guide](/development/prisma)
 
-4. Run the following commands in separate terminals.<br/>
+4. [Read the Remix development guide](/development/remix)
+
+5. Run the following commands in separate terminals.<br/>
 They will start the dev servers for developing on the **space** application and the associated database.
 <CodeGroup>
   ```bash space-db
